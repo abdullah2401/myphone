@@ -174,16 +174,19 @@ header .taps {
       top: 60%;
    }
 }
-.landing .sliderWrapper .slideritem .content .price span:nth-child(1){
-   color:var(--main-c) ;
-}
 .landing .sliderWrapper .slideritem .content .price span{
-   border: 3px dashed #ffffff;
+   border: 4px solid #ffffff;
    text-shadow: 0 0 10px #2b2b2b;
+   outline: 1px solid #333;
    font-size: 70px;
    padding: 2px 4px;
    font-weight:bold;
-   background-color: #494949a4;
+   color: #fff;
+   border-radius: 8px ;
+   -webkit-border-radius: 8px ;
+   -moz-border-radius: 8px ;
+   -ms-border-radius: 8px ;
+   -o-border-radius: 8px ;
 }
 @media (max-width: 991px) {
    .landing .sliderWrapper .slideritem .content .price span{
@@ -193,6 +196,9 @@ header .taps {
 .landing .sliderWrapper .slideritem:nth-child(1) .content .info button {
    background-color: var(--main-c);
 }
+.landing .sliderWrapper .slideritem:nth-child(1) .content .price span{
+   background-color:var(--main-c) ;
+}
 .landing .sliderWrapper .slideritem:nth-child(1):before{
    background-color: var(--main-c);
 }
@@ -200,7 +206,7 @@ header .taps {
    background-color: #be4b08;
 }
 .landing .sliderWrapper .slideritem:nth-child(2) .content .price span{
-   color: #be4b08 ;
+   background-color: #be4b08 ;
 }
 .landing .sliderWrapper .slideritem:nth-child(2):before{
    background-color: #be4b08;
@@ -209,7 +215,7 @@ header .taps {
    background-color: rgb(78, 74, 74);
 }
 .landing .sliderWrapper .slideritem:nth-child(3) .content .price span{
-   color:rgb(255, 255, 255);
+   background-color:rgb(85, 74, 74);
 }
 .landing .sliderWrapper .slideritem:nth-child(3):before{
    background-color: rgb(85, 79, 79);
@@ -218,7 +224,7 @@ header .taps {
    background-color: rgb(121, 20, 161);
 }
 .landing .sliderWrapper .slideritem:nth-child(4) .content .price span{
-   color:rgb(121, 20, 161) ;
+   background-color:rgb(121, 20, 161) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(4):before{
    background-color: rgb(121, 23, 158);
@@ -227,7 +233,7 @@ header .taps {
    background-color: rgb(11, 195, 219);
 }
 .landing .sliderWrapper .slideritem:nth-child(5) .content .price span{
-   color:rgb(11, 195, 219) ;
+   background-color:rgb(11, 195, 219) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(5):before{
    background-color: rgb(11, 195, 219);
@@ -270,7 +276,7 @@ header .taps {
    padding: 5px 15px ;
    border: 3px double #e7e7e7;
    cursor: pointer;
-   box-shadow: 5px 5px 10px #eee;
+   box-shadow: 5px 5px 10px #3e3e3e;
    transform: skew(-10deg ,0deg);
    -webkit-transform: skew(-10deg ,0deg);
    -moz-transform: skew(-10deg ,0deg);
