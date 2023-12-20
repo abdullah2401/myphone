@@ -28,7 +28,7 @@ const products = [
       },
       {
         code: "#777",
-        img: "./images/Samsung/s23ultra/s-23-ultra-green-1.png",
+        img: "./images/Samsung/s23ultra/s-23-ultra-grey-1.png",
       },
     ],
   },
