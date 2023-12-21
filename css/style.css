@@ -291,7 +291,7 @@ header .taps {
    }
 }
 .landing .sliderWrapper .slideritem .content .info button {
-   color: #fff;
+   color: #fff !important;
    font-size: 32px;
    width: fit-content;
    margin-left: auto;
