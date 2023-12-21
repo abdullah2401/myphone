@@ -175,8 +175,7 @@ header .taps {
    }
 }
 .landing .sliderWrapper .slideritem .content .price span{
-   border: 4px solid #ffffff;
-   outline: 1px double #333;
+   border: 6px double #ffffff;
    font-size: 70px;
    padding: 2px 4px;
    font-weight:bold;
