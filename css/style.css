@@ -520,6 +520,10 @@ header .taps {
 .airforce input[type="radio"]{
    appearance: none;
 }
+.airforce .content .buynow:hover {
+   background-color:#fff ;
+   color:#000100;
+}
 .airforce .content .buynow{
    background-color: #000100;
    color: #fff;
@@ -557,7 +561,16 @@ header .taps {
 }
 .airforce .content h3 {
    margin: 20px 0 30px;
+   font-size:50px;
 }
+.airforce .content h5 {
+    margin: 20px 0 30px;
+    font-size:20px;
+ }
+   .airforce .content p {
+   margin: 20px 0 30px;
+   font-size:11px;
+ }
 }
 section{
    padding: 80px;
