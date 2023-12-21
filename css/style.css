@@ -199,8 +199,10 @@ header .taps {
 }
 .landing .sliderWrapper .slideritem:nth-child(1) .content .info button:hover {
    background-color: #fff;
-   color: var(--main-c) ;
    border-color: var(--main-c) ;
+}
+.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+   color: var(--main-c) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(1) .content .price span{
    background-color:var(--main-c) ;
@@ -214,6 +216,8 @@ header .taps {
 .landing .sliderWrapper .slideritem:nth-child(2) .content .info button:hover {
    background-color: #fff;
    border-color:#be4b08 ;
+}
+.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
    color: #be4b08 ;
 }
 .landing .sliderWrapper .slideritem:nth-child(2) .content .price span{
@@ -228,6 +232,8 @@ header .taps {
 .landing .sliderWrapper .slideritem:nth-child(3) .content .info button:hover {
    background-color: #fff;
    border-color:rgb(78, 74, 74) ;
+}
+.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
    color: rgb(78, 74, 74);
 }
 .landing .sliderWrapper .slideritem:nth-child(3) .content .price span{
@@ -242,6 +248,8 @@ header .taps {
 .landing .sliderWrapper .slideritem:nth-child(4) .content .info button:hover {
    background-color: #fff;
    border-color:rgb(121, 20, 161) ;
+}
+.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
    color:rgb(121, 20, 161) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(4) .content .price span{
@@ -255,8 +263,10 @@ header .taps {
 }
 .landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover {
    background-color: #fff;
-   color:rgb(11, 195, 219) ;
    border-color:rgb(11, 195, 219) ;
+}
+.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+   color:rgb(11, 195, 219) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(5) .content .price span{
    background-color:rgb(11, 195, 219) ;
