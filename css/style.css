@@ -7,6 +7,9 @@
    text-decoration: none;
    transition-duration: 0.33s;
 }
+html {
+   scroll-behavior: smooth;
+}
 :root {
    --main-c: #3da9b7;
 }
