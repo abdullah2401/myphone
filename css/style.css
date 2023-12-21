@@ -8,7 +8,7 @@
    transition-duration: 0.33s;
 }
 :root {
-   --main-c: #3ca5b3;
+   --main-c: #3da9b7;
 }
 body{
    font-family: sans-serif;
@@ -223,7 +223,7 @@ header .taps {
 .landing .sliderWrapper .slideritem:nth-child(3) .content .info button {
    background-color: rgb(78, 74, 74);
 }
-.landing .sliderWrapper .slideritem:nth-child(1) .content .info button:hover {
+.landing .sliderWrapper .slideritem:nth-child(3) .content .info button:hover {
    background-color: #fff;
    border-color:rgb(78, 74, 74) ;
    color: rgb(78, 74, 74);
