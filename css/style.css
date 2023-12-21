@@ -293,8 +293,11 @@ header .taps {
       font-size: 50px;
    }
 }
-.landing .sliderWrapper .slideritem .content .info button {
+.landing .sliderWrapper .slideritem .content .info button a {
    color: #fff !important;
+
+}
+.landing .sliderWrapper .slideritem .content .info button {
    font-size: 32px;
    width: fit-content;
    margin-left: auto;
