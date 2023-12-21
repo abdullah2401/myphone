@@ -459,7 +459,10 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٤٦٤٥.jpg);
    padding: 70px 150px 100px 100px;
 }
-.airforce img{
+.airforce .image img {
+   max-width:100%;
+}
+.airforce .image{
    width: 450px;
    z-index: 9;
    transform: translate(0px ,-10px);
@@ -533,7 +536,7 @@ header .taps {
    cursor: pointer;
 }
 @media (max-width: 991px) {
-   .airforce img{
+   .airforce .image{
       width: 300px;
       transform: translate(0px ,-10px);
       -webkit-transform: translate(0px ,-10px);
@@ -551,7 +554,7 @@ header .taps {
    padding: 40px 0px ;
    align-items: flex-start;
 }
-.airforce img {
+.airforce .image {
    width: 200px;
    margin: auto;
 }
