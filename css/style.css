@@ -194,6 +194,29 @@ header .taps {
       font-size: 50px;
    }
 }
+.landing .sliderWrapper .slideritem .content .info button a {
+   color: #fff ;
+}
+.landing .sliderWrapper .slideritem .content .info button {
+   font-size: 32px;
+   width: fit-content;
+   margin-left: auto;
+   margin-top: 50px;
+   padding: 5px 15px ;
+   border: 3px double #e7e7e7;
+   cursor: pointer;
+   box-shadow: 5px 5px 10px #3e3e3e;
+   transform: skew(-10deg ,0deg);
+   -webkit-transform: skew(-10deg ,0deg);
+   -moz-transform: skew(-10deg ,0deg);
+   -ms-transform: skew(-10deg ,0deg);
+   -o-transform: skew(-10deg ,0deg);
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
 .landing .sliderWrapper .slideritem:nth-child(1) .content .info button {
    background-color: var(--main-c);
 }
@@ -302,29 +325,6 @@ header .taps {
    .landing .sliderWrapper .slideritem .content .info h2 {
       font-size: 50px;
    }
-}
-.landing .sliderWrapper .slideritem .content .info button a {
-   color: #fff ;
-}
-.landing .sliderWrapper .slideritem .content .info button {
-   font-size: 32px;
-   width: fit-content;
-   margin-left: auto;
-   margin-top: 50px;
-   padding: 5px 15px ;
-   border: 3px double #e7e7e7;
-   cursor: pointer;
-   box-shadow: 5px 5px 10px #3e3e3e;
-   transform: skew(-10deg ,0deg);
-   -webkit-transform: skew(-10deg ,0deg);
-   -moz-transform: skew(-10deg ,0deg);
-   -ms-transform: skew(-10deg ,0deg);
-   -o-transform: skew(-10deg ,0deg);
-   border-radius: 5px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
 }
 .sliderWrapper {
    display: flex;
