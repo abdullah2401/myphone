@@ -224,7 +224,7 @@ header .taps {
    background-color: #fff;
    border-color: var(--main-c) ;
 }
-.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+.landing .sliderWrapper .slideritem:nth-child(1) .content .info button:hover a {
    color: var(--main-c) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(1) .content .price span{
@@ -240,7 +240,7 @@ header .taps {
    background-color: #fff;
    border-color:#be4b08 ;
 }
-.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+.landing .sliderWrapper .slideritem:nth-child(2) .content .info button:hover a {
    color: #be4b08 ;
 }
 .landing .sliderWrapper .slideritem:nth-child(2) .content .price span{
@@ -256,7 +256,7 @@ header .taps {
    background-color: #fff;
    border-color:rgb(78, 74, 74) ;
 }
-.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+.landing .sliderWrapper .slideritem:nth-child(3) .content .info button:hover a {
    color: rgb(78, 74, 74);
 }
 .landing .sliderWrapper .slideritem:nth-child(3) .content .price span{
@@ -272,7 +272,7 @@ header .taps {
    background-color: #fff;
    border-color:rgb(121, 20, 161) ;
 }
-.landing .sliderWrapper .slideritem:nth-child(5) .content .info button:hover a {
+.landing .sliderWrapper .slideritem:nth-child(4) .content .info button:hover a {
    color:rgb(121, 20, 161) ;
 }
 .landing .sliderWrapper .slideritem:nth-child(4) .content .price span{
