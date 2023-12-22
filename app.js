@@ -6,13 +6,14 @@ const products = [
     id: 1,
     title: "IPHONE",
     price: 419,
+    link: "#iphone",
     colors: [
       {
         code: "black",
         img: "./images/iphone/15pro/iphone-15-pro-black.png",
       },
       {
-        code: "darkblue",
+        code: "#5c5acb",
         img: "./images/iphone/15pro/iphone-15-pro-blue.png",
       },
     ],
@@ -21,6 +22,7 @@ const products = [
     id: 2,
     title: "SAMSUNG",
     price: 349,
+    link: "#samsung",
     colors: [
       {
         code: "#111",
@@ -36,6 +38,7 @@ const products = [
     id: 3,
     title: "OPPO",
     price: 309,
+    link: "#oppo",
     colors: [
       {
         code: "#222",
@@ -51,6 +54,7 @@ const products = [
     id: 4,
     title: "XIAOMI",
     price: 329,
+    link: "#xiaomi",
     colors: [
       {
         code: "black",
@@ -66,6 +70,7 @@ const products = [
     id: 5,
     title: "REALME",
     price: 299,
+    link: "#realme",
     colors: [
       {
         code: "black",
@@ -79,12 +84,15 @@ const products = [
   },
 ];
 
+
 let choosenProduct = products[0];
 
 const currentProductImg = document.querySelector(".productImg");
 const currentProductTitle = document.querySelector(".productTitle");
 const currentProductPrice = document.querySelector(".productPrice");
 const currentProductColors = document.querySelectorAll(".color");
+const currentProductSizes = document.querySelectorAll(".size");
+const currentProductMore = document.querySelector(".moreop");
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -98,6 +106,7 @@ menuItems.forEach((item, index) => {
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
+    currentProductMore.href = choosenProduct.link ;
 
     //assing new colors
     currentProductColors.forEach((color, index) => {
@@ -109,17 +118,6 @@ menuItems.forEach((item, index) => {
 currentProductColors.forEach((color, index) => {
   color.addEventListener("click", () => {
     currentProductImg.src = choosenProduct.colors[index].img;
-  });
-});
-
-currentProductSizes.forEach((size, index) => {
-  size.addEventListener("click", () => {
-    currentProductSizes.forEach((size) => {
-      size.style.backgroundColor = "white";
-      size.style.color = "black";
-    });
-    size.style.backgroundColor = "black";
-    size.style.color = "white";
   });
 });
 
