@@ -600,8 +600,8 @@ header .taps {
    -moz-transform: translate(0px ,-10px);
    -ms-transform: translate(0px ,-10px);
    -o-transform: translate(0px ,-10px);
-   filter: drop-shadow(7px 15px 5px rgba(158, 158, 158, 0.592));
-   -webkit-filter: drop-shadow(7px 15px 5px rgba(158, 158, 158, 0.592));
+   filter: drop-shadow(7px 10px 5px rgba(118, 118, 118, 0.692));
+   -webkit-filter: drop-shadow(7px 15px 5px rgba(118, 118, 118, 0.692));
 }
 .airforce .content {
    width: 35%;
@@ -669,7 +669,7 @@ header .taps {
    padding: 7px 12px ;
    background-color: #000;
    position: absolute;
-   top: calc(100% -7px);
+   top: 100%;
    color: #fff;
    right: 10%;
 }
