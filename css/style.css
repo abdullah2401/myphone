@@ -1202,7 +1202,7 @@ header .taps {
       margin: 0 0 10px 0;
    }
    .prodectes .prodect .properties .phoneInfo{
-      font-size: 10px ;
+      font-size: 11px ;
    }
    .prodectes .prodect .properties .phoneInfo span{
       font-size: 13px ;
@@ -1217,6 +1217,9 @@ header .taps {
       top: 7px;
       padding: 3px 3px 3px 12px;
       font-size: 14px;
+   }
+   .prodectsView {
+      padding: 8px 8px ;
    }
 }
 
