@@ -352,8 +352,8 @@ header .taps {
    -moz-transform: translatex(-50%);
    -ms-transform: translatex(-50%);
    -o-transform: translatex(-50%);
-   filter: drop-shadow(15px 30px 5px rgba(0,0,0,.6));
-   -webkit-filter: drop-shadow(15px 30px 5px rgba(0,0,0,.6));
+   filter: drop-shadow(7px 20px 5px rgba(58,58,58,.6));
+   -webkit-filter: drop-shadow(7px 20px 5px rgba(58,58,58,.6));
 }
 @media (max-width: 991px) {
    .landing .sliderWrapper .slideritem img {
@@ -600,8 +600,8 @@ header .taps {
    -moz-transform: translate(0px ,-10px);
    -ms-transform: translate(0px ,-10px);
    -o-transform: translate(0px ,-10px);
-   filter: drop-shadow(15px 30px 5px rgba(58, 58, 58, 0.692));
-   -webkit-filter: drop-shadow(15px 30px 5px rgba(58, 58, 58, 0.692));
+   filter: drop-shadow(7px 15px 5px rgba(158, 158, 158, 0.592));
+   -webkit-filter: drop-shadow(7px 15px 5px rgba(158, 158, 158, 0.592));
 }
 .airforce .content {
    width: 35%;
@@ -669,7 +669,7 @@ header .taps {
    padding: 7px 12px ;
    background-color: #000;
    position: absolute;
-   top: calc(100% + 10px );
+   top: calc(100% -7px);
    color: #fff;
    right: 10%;
 }
