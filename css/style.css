@@ -130,6 +130,7 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٠٦٣٣.jpg);
    background-size: cover;
    background-repeat: no-repeat;
+   margin-bottom: -70px;
 }
 @media(max-width:768px ){
 .landing {
