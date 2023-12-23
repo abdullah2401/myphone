@@ -742,6 +742,10 @@ header .taps {
    .comingSoon h2:nth-child(2){
       padding-left: 40px;
    }
+   .airforce .image .morestyle a{
+   padding: 5px 8px ;
+      font-size: 12px;
+   }
 }
 
 
