@@ -5,7 +5,7 @@
    box-sizing: border-box;
    list-style: none;
    text-decoration: none;
-   transition-duration: 0.33s;
+   transition-duration: 0.7s;
 }
 html {
    scroll-behavior: smooth;
@@ -107,17 +107,17 @@ header h1{
    font-size: 20px;
 }
 .taps {
-   width: 95%;
+   width: 100%;
 }
 header .top .search input {
-   width: 130px;
+   width: 170px;
    padding: 7px 20px 7px 7px;
 }
 .top .search i {
    font-size: 12px;
 }
 header .taps {
-   padding: 10px;
+   padding: 10px 0;
 }
 .taps h3{
    font-size: 12px;
@@ -157,7 +157,7 @@ header .taps {
    -moz-transform: skew(-30deg , 0deg) translate(-30% , -32%);
    -ms-transform: skew(-30deg , 0deg) translate(-30% , -32%);
    -o-transform: skew(-30deg , 0deg) translate(-30% , -32%);
-   width: 60% ;
+   width: 65% ;
    height: 560px ;
    border-radius: 25% 40%;
    -webkit-border-radius: 25% 40%;
@@ -177,7 +177,6 @@ header .taps {
    .landing .sliderWrapper .slideritem::before{
       width: 420px ;
       height: 420px ;
-      left: 30%;
       top: 60%;
    }
 }
@@ -424,6 +423,9 @@ header .taps {
    color: var(--main-c);
    font-size: 5rem;
 }
+.services .serv:hover i{
+   transform: scale(1.17);
+}
 .services .serv h3{
    font-size: 28px ;
    margin: 15px 0;
@@ -569,11 +571,29 @@ header .taps {
    background-color: #fefefe;
    color: var(--main-c);
 }
+@media (max-width:767px) {
+   .payment {
+      width: 95vw;
+      height: 580px;
+      padding: 10px;
+   }
+   .payment form h2 {
+      font-size: 20px;
+   }
+   .payment form label {
+      font-size: 13px;
+   }
+   .payment form input {
+      width: 100%;
+      margin: 0 0 20px 0;
+   }
+}
 .airforce .image img {
-   max-width:100%;
+   max-height:100%;
 }
 .airforce .image{
-   width: 450px;
+   height: 450px;
+   position: relative;
    z-index: 9;
    transform: translate(0px ,-10px);
    -webkit-transform: translate(0px ,-10px);
@@ -645,26 +665,26 @@ header .taps {
    width: fit-content;
    cursor: pointer;
 }
-.airforce .content .morestyle a{
+.airforce .image .morestyle a{
    padding: 7px 12px ;
    background-color: #000;
    position: absolute;
-   top: calc(100% - 100px );
+   top: calc(100% - 20px );
    color: #fff;
-   left: 50%;
+   right: 10%;
 }
 @media (max-width: 991px) {
    .airforce .image{
-      width: 300px;
+      height: 300px;
       transform: translate(0px ,-10px);
       -webkit-transform: translate(0px ,-10px);
       -moz-transform: translate(0px ,-10px);
       -ms-transform: translate(0px ,-10px);
       -o-transform: translate(0px ,-10px);
-}
-.airforce {
-   padding: 70px 50px 70px 50px;
-}
+   }
+   .airforce {
+      padding: 70px 50px 70px 50px;
+   }
 }
 @media(max-width:600px){
 .airforce {
@@ -673,7 +693,7 @@ header .taps {
    align-items: flex-start;
 }
 .airforce .image {
-   width: 200px;
+   height: 200px;
    margin: auto;
 }
 .airforce .content {
@@ -693,6 +713,38 @@ header .taps {
    font-size:11px;
    }
 }
+.coming {
+   overflow: hidden;
+}
+.comingSoon {
+   background-image: url('../images/comingsoonimg.jpg');
+   background-position: center;
+   background-size: cover;
+   width: 100vw;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   overflow: hidden;
+}
+.comingSoon h2 {
+   font-size: 100px ;
+   width: fit-content;
+   margin-left: 25%;
+}
+.comingSoon h2:nth-child(2){
+   padding-left: 100px;
+}
+@media(max-width:600px){
+   .comingSoon h2 {
+      font-size: 40px ;
+   }
+   .comingSoon h2:nth-child(2){
+      padding-left: 40px;
+   }
+}
+
+
 /* flag ship section */
 .flagShip .countainer {
    display: grid;
@@ -730,6 +782,9 @@ header .taps {
 }
 .flagShip .countainer .land div {
    z-index: 2;
+}
+.flagShip .countainer .land:hover div {
+   transform: scale(1.14);
 }
 .flagShip .countainer .land::before{
    content: "";
@@ -857,7 +912,7 @@ header .taps {
       grid-template-rows: repeat(6 , 1fr);
       width: 100%;
       margin: auto;
-      height: 100vh;
+      height: 850px;
       gap: 5px;
       background-color: #e3e3e3;
    }
@@ -919,7 +974,7 @@ header .taps {
       grid-template-rows: repeat(6 , 1fr);
       width: 100%;
       margin: auto;
-      height: 100vh;
+      height: 850px;
       gap: 3px;
       background-color: #e3e3e3;
    }
@@ -1021,6 +1076,26 @@ header .taps {
 .prodectsView h2.title-r {
    color: var(--fivth-c);
 }
+.prodectsView h2.title-i:hover {
+   background-color: var(--main-c);
+   color: #fff;
+}
+.prodectsView h2.title-s:hover {
+   background-color: var(--second-c);
+   color: #fff;
+}
+.prodectsView h2.title-x:hover {
+   background-color: var(--third-c);
+   color: #fff;
+}
+.prodectsView h2.title-o:hover {
+   background-color: var(--fourth-c);
+   color: #fff;
+}
+.prodectsView h2.title-r:hover {
+   background-color: var(--fivth-c);
+   color: #fff;
+}
 .prodectes {
    overflow-x: scroll;
    padding: 0 0;
@@ -1030,37 +1105,21 @@ header .taps {
 }
 .prodectes .countainer {
    width: max-content;
-   padding: 10px;
-}
-.prodectes .gorightS,
-.prodectes .goleftS{
-   width: 50px;
-   height: 50px ;
-   color: #000;
-   z-index: 999;
-   background-color: #dbdbdbf6;
-   position: absolute;
-   top: 10px ;
-}
-.prodectes .goleftS {
-   right: 120px;
-}
-.prodectes .gorightS {
-   right: 50px;
+   padding: 30px 10px;
 }
 .prodectsView ::-webkit-scrollbar{
    height: 0;
 }
 .prodectes .prodect .bestSell {
    position: absolute;
-   left: 0;
+   right: 0;
    top: 12px;
    background-color: var(--main-c);
-   padding: 5px 15px 5px 5px;
+   padding: 5px 5px 5px 15px;
    font-size: 18px;
    color: #Fff;
    font-weight: 300;
-   clip-path: polygon(0 0 ,100% 0 , 90% 50% , 100% 100% , 0 100%);
+   clip-path: polygon( 10% 50% , 0 0 , 100% 0 ,100% 100% ,0 100%);
 }
 .prodectes .prodect{
    width: 300px ;
@@ -1071,10 +1130,10 @@ header .taps {
    box-shadow: 0 0 10px #b4b4b4;
    height: 500px;
 }
-@media (max-width: 767px ) {
-   .prodectes .prodect{
-      margin-right: 20px;
-   }
+.prodectes .prodect:hover{
+   transform: scale(1.05);
+   box-shadow: 0 0 10px #c4c4c4;
+   border: 1px solid #aaa;
 }
 .prodectes .prodect .imageprodect {
    height: 40%;
@@ -1125,7 +1184,38 @@ header .taps {
    margin: 0 10px 0 0 ;
 }
 
-
+@media (max-width: 767px ) {
+   .prodectes .prodect{
+      margin-right: 15px;
+      width: 180px ;
+      height: 400px;
+   }
+   .prodectes .prodect .properties {
+      padding: 5px 10px;
+      height: 60%;
+   }
+   .prodectes .prodect .properties h3{
+      font-size: 20px;
+      margin: 0 0 10px 0;
+   }
+   .prodectes .prodect .properties .phoneInfo{
+      font-size: 10px ;
+   }
+   .prodectes .prodect .properties .phoneInfo span{
+      font-size: 13px ;
+      margin-bottom: 3px;
+      margin-right: 5px;
+   }
+   .prodectes .prodect .imageprodect img{
+      max-height: 100%;
+      margin: 0 auto;
+   }
+   .prodectes .prodect .bestSell {
+      top: 7px;
+      padding: 3px 3px 3px 12px;
+      font-size: 14px;
+   }
+}
 
 
 footer {
@@ -1137,10 +1227,15 @@ footer h5{
    margin-bottom: 20px;
    font-weight: 600;
    font-size: 26px;
-   }
+}
 footer .list ul li {
-      color: #555a;
-      font-size: 22px;
+   color: #555a;
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+footer .list ul li:hover{
+   transform: translatex(8px);
 }
 footer .subscribe ul li{
    padding: 6.5px;
@@ -1195,7 +1290,6 @@ footer .subscribe button {
 @media (max-width:600px){
    footer .list ul li {
       font-size: 12px;
-      margin: 5px 0;
    }
    footer {
       grid-template-columns: 30% 1fr;
