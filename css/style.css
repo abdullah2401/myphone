@@ -139,7 +139,7 @@ header .taps {
 }
 .landing {
    overflow: hidden;
-   clip-path: polygon(0 0 , 100% 100%, 100% 100%,0 80%);
+   clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
 .landing .sliderWrapper {
    width: 500vw;
