@@ -139,6 +139,7 @@ header .taps {
 }
 .landing {
    overflow: hidden;
+   clip-path: polygon(0 0 , 100% 100%, 100% 100%,0 80%);
 }
 .landing .sliderWrapper {
    width: 500vw;
@@ -466,7 +467,6 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٤٦٤٥.jpg);
    padding: 70px 150px 100px 100px;
    position: relative;
-   clip-path: polygon(0 0 , 100% 10%, 100% 100%,0 100%);
 }
 .payment {
    position: absolute;
