@@ -131,6 +131,8 @@ header .taps {
    background-size: cover;
    background-repeat: no-repeat;
    margin-bottom: -70px;
+   z-index:88;
+   clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
 @media(max-width:768px ){
 .landing {
@@ -139,7 +141,6 @@ header .taps {
 }
 .landing {
    overflow: hidden;
-   clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
 .landing .sliderWrapper {
    width: 500vw;
