@@ -669,7 +669,7 @@ header .taps {
    padding: 7px 12px ;
    background-color: #000;
    position: absolute;
-   top: calc(100% - 20px );
+   top: calc(100% + 10px );
    color: #fff;
    right: 10%;
 }
