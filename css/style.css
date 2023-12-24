@@ -135,7 +135,7 @@ header .taps {
    background-size: cover;
    background-repeat: no-repeat;
    margin-bottom: -50px;
-   transitio-duration:1s;
+   transition-duration:1s;
    transition-timing-function: ease-in-out;
    clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
