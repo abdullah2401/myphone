@@ -130,7 +130,7 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٠٦٣٣.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   margin-bottom: -110px;
+   margin-bottom: -50px;
    transitio-duration:1s;
    transition-timing-function: ease-in-out;
    clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
@@ -402,6 +402,7 @@ header .taps {
    background-color: transparent;
    padding: 70px 150px 100px 100px;
    position: relative;
+   background-color:#777;
 }
 .payment {
    position: absolute;
