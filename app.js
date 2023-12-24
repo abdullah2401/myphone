@@ -106,8 +106,7 @@ menuItems.forEach((item, index) => {
     currentProductTitle.textContent = choosenProduct.title;
     currentProductPrice.textContent = "$" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
-    currentProductMore.href = choosenProduct.link ;
-
+   
     //assing new colors
     currentProductColors.forEach((color, index) => {
       color.style.backgroundColor = choosenProduct.colors[index].code;
