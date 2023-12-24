@@ -1128,7 +1128,7 @@ footer .subscribe button {
       display: flex;
       flex-direction: row;
       min-height: 260px;
-      max-height: max-content;
+      max-height: 320px;
    }
    .pageMain .countainer .prodect .properties {
       padding: 10px 5px;
