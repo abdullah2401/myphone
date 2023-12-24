@@ -685,6 +685,10 @@ header .taps {
       padding: 7px ;
       width: fit-content;
    }
+   .prodectsView .head h4 {
+      font-size: 14px;
+      padding: 7px ;
+   }
 }
 .prodectsView h2.title-i ,
 .prodectsView h2.title-i + h4 a{
