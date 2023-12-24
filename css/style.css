@@ -130,7 +130,7 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٠٦٣٣.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   margin-bottom: -70px;
+   margin-bottom: -150px;
    z-index:88;
    clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
@@ -468,6 +468,9 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٤٦٤٥.jpg);
    padding: 70px 150px 100px 100px;
    position: relative;
+}
+.airforce > div {
+   z-index:100;
 }
 .payment {
    position: absolute;
