@@ -397,75 +397,8 @@ header .taps {
    margin-top: 70px;
 }
 }
-.services {
-   padding: 80px 10%;
-   position: relative;
-   z-index: 3;
-}
-.services .serv{
-   text-align: center;
-   position: relative;
-   z-index: 10;
-}
-.services .serv i{
-   color: var(--main-c);
-   font-size: 5rem;
-}
-.services .serv:hover i{
-   transform: scale(1.17);
-}
-.services .serv h3{
-   font-size: 28px ;
-   margin: 15px 0;
-   text-transform: uppercase;
-}
-.services .serv p{
-   font-size: 18px ;
-   color: #343434;
-   line-height: 1.5;
-}
-   @media (max-width:991px){
-   .services{
-      padding: 10px 5px ;
-   }
-   .services>div {
-      display: grid;
-      grid-template-columns: 1fr 1fr ;
-      gap: 20px;
-   }
-   .services .serv i{
-      color: var(--main-c);
-      font-size: 55px;
-   }
-   .services .serv h3{
-      font-size: 22px ;
-      margin: 15px 0;
-   }
-   .services .serv p{
-      font-size: 16px ;
-      color: #343434;
-      line-height: 1.2;
-   }
-   }
-@media (max-width:600px){
-.services{
-   padding: 10px 5px ;
-}
-.services .serv i{
-   color: var(--main-c);
-   font-size: 40px;
-}
-.services .serv h3{
-   font-size: 18px ;
-   margin: 10px 0;
-   text-transform: uppercase;
-}
-.services .serv p{
-   font-size: 13px ;
-}
-}
 .airforce {
-   background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٤٦٤٥.jpg);
+   background-color: white;
    padding: 70px 150px 100px 100px;
    position: relative;
 }
