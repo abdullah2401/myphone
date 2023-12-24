@@ -1040,6 +1040,47 @@ footer .subscribe button {
    margin: 0 10px 0 0 ;
 }
 
+@media (max-width: 992px ) {
+   .pageMain .countainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill , minmax(190px , 1fr));
+      gap: 25px 10px;
+   }
+   .pageMain .countainer .prodect{
+      min-width: 170px ;
+      max-width: max-content ;
+      height: 400px;
+      margin: auto;
+   }
+   .pageMain .countainer .prodect .properties {
+      padding: 5px 10px;
+      height: 60%;
+   }
+   .pageMain .countainer .prodect .properties h3{
+      font-size: 20px;
+      margin: 0 0 10px 0;
+   }
+   .pageMain .countainer .prodect .properties .phoneInfo{
+      font-size: 11px ;
+   }
+   .pageMain .countainer .prodect .properties .phoneInfo span{
+      font-size: 13px ;
+      margin-bottom: 3px;
+      margin-right: 5px;
+   }
+   .pageMain .countainer .prodect .imageprodect img{
+      max-height: 100%;
+      margin: 0 auto;
+   }
+   .pageMain .countainer .prodect .bestSell {
+      top: 7px;
+      padding: 3px 3px 3px 12px;
+      font-size: 14px;
+   }
+   .prodectsView {
+      padding: 8px 8px ;
+   }
+}
 @media (max-width: 767px ) {
    .pageMain .countainer {
       display: grid;
