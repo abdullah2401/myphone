@@ -130,8 +130,7 @@ header .taps {
    background-image: url(../images/IMG_٢٠٢٣١٢٢٠_١٨٠٦٣٣.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   margin-bottom: -150px;
-   z-index:88;
+   margin-bottom: -110px;
    clip-path: polygon(0 0 , 100% 0, 100% 100%,0 80%);
 }
 @media(max-width:768px ){
