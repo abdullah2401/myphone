@@ -1089,14 +1089,15 @@ footer .subscribe button {
       height: 100%;
    }
    .pageMain .countainer .prodect .properties h3{
-      font-size: 16px;
+      font-size: 18px;
       margin: 0 0 10px 0;
    }
    .pageMain .countainer .prodect .properties .phoneInfo{
-      font-size: 8px ;
+      font-size: 10px ;
+      line-height: 1.6;
    }
    .pageMain .countainer .prodect .properties .phoneInfo span{
-      font-size: 11px ;
+      font-size: 12px ;
       margin-bottom: 3px;
       margin-right: 5px;
    }
