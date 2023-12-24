@@ -402,7 +402,6 @@ header .taps {
    background-color: transparent;
    padding: 70px 150px 100px 100px;
    position: relative;
-   z-index:100;
 }
 .payment {
    position: absolute;
