@@ -38,10 +38,13 @@ body{
 header{
    padding: 0px 80px 20px ;
    background-color: #424242;
-   color: var(--main-c);
    position: relative;
    box-shadow: 10px 0px 10px #fafafa;
 }
+header h1 a {
+   color: var(--main-c);
+
+
 .top img {
    width: 50px;
    box-shadow: 10px 10px 5px -2px #e3e3e3;
