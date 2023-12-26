@@ -791,6 +791,7 @@ header .taps {
 .prodectsView .prodectes .prodect .properties {
    background-color: #d6d6d641;
    padding: 10px 20px;
+   border-top:1px solid #939393;
    height: 60%;
 }
 .prodectsView .prodectes .prodect .properties h3{
