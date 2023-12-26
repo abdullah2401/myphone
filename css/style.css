@@ -1011,7 +1011,6 @@ footer .subscribe button {
    background-color: #d6d6d641;
    padding: 10px 20px;
    height: 60%;
-   border-top:1px solid #939393;
 }
 .pageMain .countainer .prodect .properties h3{
    color: #343434;
@@ -1128,6 +1127,11 @@ footer .subscribe button {
    }
 }
 
+@media (min-width: 465px ) {
+   .pageMain .countainer .prodect .properties {
+      border-top:1px solid #939393;
+   }
+}
 @media (max-width: 465px ) {
    .pageMain .countainer .prodect{
       display: flex;
@@ -1138,7 +1142,6 @@ footer .subscribe button {
    .pageMain .countainer .prodect .properties {
       padding: 20px 10px;
       height: 100%;
-      border: none;
       border-left:1px solid #939393 ;
    }
    .pageMain .countainer .prodect .properties h3{
