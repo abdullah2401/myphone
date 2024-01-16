@@ -93,6 +93,19 @@ const currentProductPrice = document.querySelector(".productPrice");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
 const currentProductMore = document.querySelector(".moreop");
+   
+window.addEventListener('scroll', function() {
+  var content = document.querySelector('.prodectsView');
+  var contentPosition = content.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.5; /* تعديل هذا الرقم حسب احتياجاتك */
+
+  if (contentPosition < screenPosition) {
+    content.classList.add('show');
+  }
+  else {
+     content.classList.remove('show');
+  }
+});
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
