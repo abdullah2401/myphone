@@ -658,6 +658,15 @@ header .taps {
 .prodectsView {
    padding: 20px 20px ;
 }
+      .prodectsView{
+         margin-top: 100px;
+        opacity: 0;
+        transition: 0.5s;
+      }
+      .prodectsView.show {
+        opacity: 1;
+        margin-top: 30px;
+      }
 .prodectsView .head h4 {
    font-size: 18px;
    padding: 10px ;
